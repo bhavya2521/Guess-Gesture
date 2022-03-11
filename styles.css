@@ -1,0 +1,36 @@
+body {
+    background-image: url("bg.jpg")
+}
+
+.vertical-text{
+  font-family: inherit;
+  font-size: 150px;
+  font-weight: 900;
+  margin: 0;
+  padding-top: 120px;
+  text-align: center;
+
+
+}
+h1{
+font-size: 50px;
+}
+.center-max{
+  padding-top: 30px;
+  width: 700px;
+  height:500px;
+  margin: 0 auto;
+}
+
+.btn{
+  color:white;
+  background-color: #FF4B2B;
+  font-size: 20px;
+    font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	cursor: pointer;
+}
+
+

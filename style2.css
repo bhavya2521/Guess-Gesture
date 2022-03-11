@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+.heading
+{
+	font-size:4vw;
+	text-align:center;
+	color:#ff6666;
+}
+
+#first
+{
+	background-image:url("welcome.jpg");
+	width:1600px;
+	height:380px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+h1
+{
+color:white;
+text-align:center;
+}
+
+#first a
+{
+color:white;
+
+}
+.intro
+{
+color:white;
+text-align:center;
+margin-left: 15em;
+margin-right: 15em;
+}
+
+
+
+
+
+h2
+{
+color:black;
+text-align:center;
+padding:2px;
+}
+h6
+{
+color:black;
+text-align:center;
+}
+p{
+	font-size:2vw;
+
+}
+
+#p, #p1, #p2{
+  float: left;
+  width: 33.33%;
+}
+
+
+#pic:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#up, #up1
+{
+
+float: left;
+  width: 50%;
+}
+#one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#down, #down1
+{
+
+float: left;
+  width: 50%;
+}
+#two:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cap
+{
+padding:10px;
+}
+#second
+{
+background-color:white;
+
+}
+.icon
+	{
+	width:12vw;
+	height:11vw;
+	border: 0px solid #555;
+	float:left;
+	padding:20px;
+	}
+.text
+{
+padding:10px;
+}
+
+@media only screen and (max-device-width: 600px)
+{
+.first,.second
+{
+width:100%;
+}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 				integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Guess Gesture</title>
+		</head>
+<body>
+<div id="first">
+	<h4 class="heading">Guess Gesture</h4>
+
+</div>
+
+<div id="second">
+		<div id="one">
+			<div id="up" >
+				<input type="image" class="icon" src="play.png" id='script'  value=" Run Script " onclick="goPython()">
+
+				</a>
+				<p class="text" ><strong>Play<br></strong>Ready to take the test.</p>
+			</div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script>
+        function goPython(){
+            $.ajax({
+              url: "main.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+        }
+    </script>
+
+
+
+
+
+
+
+
+			<div id="up1"> <a href="https://www.google.com" target="_blank" >
+				<img class="icon" src="tutorial.png">
+				</a>
+				<p class="text" ><strong>Tutorial<br></strong>Learn the signs.</p>
+			</div>
+		</div>
+		<div id="two">
+			<div id="down">
+			<a href="rank.html" target="_blank" >
+				<img class="icon" src="ranking.png">
+			</a>
+			<p class="text" ><strong>Leaderboard<br></strong>Checkout the scores.</p>
+			</div>
+			<div id="down1">
+			<a href="index.html"target="_blank" >
+				<img class="icon" src="feedback.png">
+			</a>
+			<p class="text" id="feedback"><strong>Feedback<br></strong>Wanna suggest something!</p>
+		</div>
+</div>
+
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>
+
+
+
+
